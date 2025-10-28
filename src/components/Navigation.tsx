@@ -16,20 +16,20 @@ const Navigation = () => {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
-            <a href="#domains" className="text-foreground hover:text-primary transition-colors">
-              Domains
+            <a href="#domeinen" className="text-foreground hover:text-primary transition-colors">
+              Domeinen
             </a>
-            <a href="#hosting" className="text-foreground hover:text-primary transition-colors">
-              Web Hosting
+            <a href="#webhosting" className="text-foreground hover:text-primary transition-colors">
+              Webhosting
             </a>
-            <a href="#builder" className="text-foreground hover:text-primary transition-colors">
-              Site Builder
+            <a href="#sitebuilder" className="text-foreground hover:text-primary transition-colors">
+              Sitebuilder
             </a>
             <a href="#vps" className="text-foreground hover:text-primary transition-colors">
               VPS
             </a>
             <Button variant="default" size="sm">
-              Get Started
+              Controleer
             </Button>
           </div>
 
@@ -47,25 +47,25 @@ const Navigation = () => {
         {isOpen && (
           <div className="md:hidden py-4 space-y-4">
             <a
-              href="#domains"
+              href="#domeinen"
               className="block text-foreground hover:text-primary transition-colors"
               onClick={() => setIsOpen(false)}
             >
-              Domains
+              Domeinen
             </a>
             <a
-              href="#hosting"
+              href="#webhosting"
               className="block text-foreground hover:text-primary transition-colors"
               onClick={() => setIsOpen(false)}
             >
-              Web Hosting
+              Webhosting
             </a>
             <a
-              href="#builder"
+              href="#sitebuilder"
               className="block text-foreground hover:text-primary transition-colors"
               onClick={() => setIsOpen(false)}
             >
-              Site Builder
+              Sitebuilder
             </a>
             <a
               href="#vps"
@@ -75,7 +75,7 @@ const Navigation = () => {
               VPS
             </a>
             <Button variant="default" className="w-full">
-              Get Started
+              Controleer
             </Button>
           </div>
         )}

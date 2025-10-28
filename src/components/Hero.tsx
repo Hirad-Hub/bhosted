@@ -16,12 +16,12 @@ const Hero = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-5xl md:text-6xl font-bold mb-6 text-foreground">
-            Fast, Reliable Web Hosting
-            <span className="block text-primary mt-2">Built for Performance</span>
+            Snel, Betrouwbaar Webhosting
+            <span className="block text-primary mt-2">Gebouwd voor Prestaties</span>
           </h1>
           <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Experience lightning-fast SSD hosting with 99.9% uptime guarantee. 
-            Perfect for websites, shops, and WordPress installations.
+            Ervaar razendsnelle SSD-hosting met 99,9% uptime garantie. 
+            Perfect voor websites, webshops en WordPress installaties.
           </p>
 
           {/* Domain Search */}
@@ -31,14 +31,14 @@ const Hero = () => {
                 <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground" size={20} />
                 <Input
                   type="text"
-                  placeholder="Enter a domain name to see if it's available..."
+                  placeholder="Vul een domeinnaam in om te zien of deze nog vrij is..."
                   value={domain}
                   onChange={(e) => setDomain(e.target.value)}
                   className="pl-10 h-12"
                 />
               </div>
               <Button type="submit" size="lg" className="h-12 px-8">
-                Check
+                Controleer
               </Button>
             </div>
           </form>
@@ -47,15 +47,15 @@ const Hero = () => {
           <div className="flex flex-wrap justify-center gap-8 text-sm text-muted-foreground">
             <div className="flex items-center gap-2">
               <div className="w-2 h-2 bg-success rounded-full"></div>
-              <span>99.9% Uptime</span>
+              <span>99,9% Uptime</span>
             </div>
             <div className="flex items-center gap-2">
               <div className="w-2 h-2 bg-success rounded-full"></div>
-              <span>24/7 Support</span>
+              <span>24/7 Ondersteuning</span>
             </div>
             <div className="flex items-center gap-2">
               <div className="w-2 h-2 bg-success rounded-full"></div>
-              <span>Free SSL Certificate</span>
+              <span>Gratis SSL Certificaat</span>
             </div>
           </div>
         </div>

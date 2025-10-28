@@ -4,45 +4,45 @@ import { Check } from "lucide-react";
 
 const plans = [
   {
-    name: "Mail Only",
-    price: "€4.99",
-    period: "/month",
-    description: "Perfect for email management",
+    name: "Mail-Only Pakket",
+    price: "€4,99",
+    period: "/maand",
+    description: "Perfect voor e-mailbeheer",
     features: [
-      "10 GB storage",
-      "100 email addresses",
-      "Adjustable virus and spam filter",
-      "Aliases and forwards",
-      "Extended backup schedule",
+      "10 GB opslag",
+      "100 email adressen",
+      "Instelbare virus- en spamfilter",
+      "Aliassen en doorsturen",
+      "Uitgebreid backup schema",
     ],
   },
   {
-    name: "Web Hosting",
-    price: "€4.99",
-    period: "/month",
-    description: "Complete hosting solution",
+    name: "Webhosting",
+    price: "€4,99",
+    period: "/maand",
+    description: "Complete hostingoplossing",
     features: [
-      "50 GB SSD storage",
-      "100 email addresses",
-      "20GB of data per month",
+      "50 GB SSD opslag",
+      "100 email adressen",
+      "20GB data per maand",
       "100 MySQL databases",
-      "Free SSL certificate",
-      "Extended backup schedule",
+      "Gratis SSL certificaat",
+      "Uitgebreid backup schema",
     ],
     popular: true,
   },
   {
     name: "Webshop",
-    price: "€9.99",
-    period: "/month",
-    description: "E-commerce ready hosting",
+    price: "€9,99",
+    period: "/maand",
+    description: "E-commerce klaar hosting",
     features: [
-      "100 GB SSD storage",
-      "Including memory management",
-      "Free secure website",
-      "Extra fast due to caching",
-      "iDeal and PayPal support",
-      "30-day money-back guarantee",
+      "100 GB SSD opslag",
+      "Inclusief voorraadbeheer",
+      "Gratis beveiligde website",
+      "Extra snel door caching",
+      "iDeal en PayPal ondersteuning",
+      "30 dagen geld-terug-garantie",
     ],
   },
 ];
@@ -52,9 +52,9 @@ const PricingCards = () => {
     <section id="hosting" className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold mb-4">Choose Your Perfect Plan</h2>
+          <h2 className="text-4xl font-bold mb-4">Kies Uw Perfecte Plan</h2>
           <p className="text-xl text-muted-foreground">
-            Flexible hosting solutions tailored to your needs
+            Flexibele hostingoplossingen op maat van uw behoeften
           </p>
         </div>
 
@@ -71,7 +71,7 @@ const PricingCards = () => {
               {plan.popular && (
                 <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
                   <span className="bg-primary text-primary-foreground px-4 py-1 rounded-full text-sm font-medium">
-                    Most Popular
+                    Meest Populair
                   </span>
                 </div>
               )}
@@ -101,7 +101,7 @@ const PricingCards = () => {
                   className="w-full"
                   size="lg"
                 >
-                  Get Started
+                  Meer info &gt;&gt;
                 </Button>
               </CardFooter>
             </Card>

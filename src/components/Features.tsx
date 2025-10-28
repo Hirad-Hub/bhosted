@@ -3,33 +3,33 @@ import { Server, Shield, Zap, HeadphonesIcon, HardDrive, Globe } from "lucide-re
 const features = [
   {
     icon: Zap,
-    title: "Lightning Fast SSD",
-    description: "Experience blazing speed with our SSD web hosting. No worries about speed and stability.",
+    title: "Razendsnelle SSD",
+    description: "Ervaar bliksemsnelle snelheid met onze SSD webhosting. Geen zorgen over snelheid en stabiliteit.",
   },
   {
     icon: Shield,
-    title: "Free SSL Certificate",
-    description: "Secure your website with a free SSL certificate included with every hosting package.",
+    title: "Gratis SSL Certificaat",
+    description: "Beveilig uw website met een gratis SSL certificaat inbegrepen bij elk hostingpakket.",
   },
   {
     icon: Server,
-    title: "99.9% Uptime Guarantee",
-    description: "Your website stays online 24/7 with our reliable infrastructure and monitoring.",
+    title: "99,9% Uptime Garantie",
+    description: "Uw website blijft 24/7 online met onze betrouwbare infrastructuur en monitoring.",
   },
   {
     icon: HeadphonesIcon,
-    title: "24/7 Expert Support",
-    description: "Get help whenever you need it via phone, email, WhatsApp, or live chat.",
+    title: "24/7 Expert Ondersteuning",
+    description: "Krijg hulp wanneer u het nodig heeft via telefoon, e-mail, WhatsApp of live chat.",
   },
   {
     icon: Globe,
-    title: "Multiple Domains",
-    description: "Host multiple websites on a single package. Link different domains easily.",
+    title: "Meerdere Domeinen",
+    description: "Host meerdere websites op één pakket. Koppel verschillende domeinen eenvoudig.",
   },
   {
     icon: HardDrive,
-    title: "Automated Backups",
-    description: "Weekly, daily, monthly, and yearly backups of your entire account.",
+    title: "Geautomatiseerde Backups",
+    description: "Wekelijkse, dagelijkse, maandelijkse en jaarlijkse backups van uw gehele account.",
   },
 ];
 
@@ -38,9 +38,9 @@ const Features = () => {
     <section className="py-20 bg-muted/30">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold mb-4">Why Choose bHosted?</h2>
+          <h2 className="text-4xl font-bold mb-4">Waarom Kiezen voor bHosted?</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Experience the best web hosting with features designed for performance and reliability
+            Ervaar de beste webhosting met functies ontworpen voor prestaties en betrouwbaarheid
           </p>
         </div>
 

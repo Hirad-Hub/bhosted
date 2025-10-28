@@ -3,21 +3,21 @@ import { Star } from "lucide-react";
 
 const testimonials = [
   {
-    name: "Sarah Johnson",
-    role: "Small Business Owner",
-    content: "As a simple WordPress website owner, you just want to put your content on your site. Nothing else matters. I have no idea what PHP is, and I have no idea if I can use email plugin and not another. I panic if the website suddenly disappears. Then there's the helpdesk. Short and sweet, quick answers, in person, or even by phone. You'll only find that here, at bHosted.",
+    name: "Sarah de Vries",
+    role: "Kleine Ondernemer",
+    content: "Als een eenvoudige WordPress website eigenaar, wil je gewoon je content op je site zetten. Niets anders doet ertoe. Ik heb geen idee wat PHP is, en ik heb geen idee of ik een e-mail plugin kan gebruiken en een andere niet. Ik raak in paniek als de website plotseling verdwijnt. Dan is er de helpdesk. Kort en bondig, snelle antwoorden, persoonlijk, of zelfs per telefoon. Dat vind je alleen hier, bij bHosted.",
     rating: 5,
   },
   {
-    name: "Michael Chen",
+    name: "Michael van Dam",
     role: "E-commerce Manager",
-    content: "After switching to bHosted, our website performance improved dramatically. The SSD hosting makes everything lightning fast, and our customers notice the difference. Customer support is always there when we need them.",
+    content: "Na het overstappen naar bHosted is de prestatie van onze website dramatisch verbeterd. De SSD hosting maakt alles razend snel, en onze klanten merken het verschil. Klantenservice is er altijd wanneer we ze nodig hebben.",
     rating: 5,
   },
   {
-    name: "Emma Williams",
+    name: "Emma Jansen",
     role: "Freelance Developer",
-    content: "I've tried many hosting providers, but bHosted stands out with their reliable service and excellent support. The control panel is intuitive, and I can manage multiple client websites effortlessly.",
+    content: "Ik heb veel hostingproviders geprobeerd, maar bHosted valt op met hun betrouwbare service en uitstekende ondersteuning. Het controlepaneel is intuïtief, en ik kan meerdere klantwebsites moeiteloos beheren.",
     rating: 5,
   },
 ];
@@ -27,16 +27,16 @@ const Testimonials = () => {
     <section className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold mb-4">Trusted by Thousands</h2>
+          <h2 className="text-4xl font-bold mb-4">Vertrouwd door Duizenden</h2>
           <p className="text-xl text-muted-foreground">
-            See what our customers say about us
+            Zie wat onze klanten over ons zeggen
           </p>
           <div className="flex items-center justify-center gap-1 mt-4">
             {[...Array(5)].map((_, i) => (
               <Star key={i} className="fill-primary text-primary" size={24} />
             ))}
-            <span className="ml-2 text-lg font-semibold">4.9/5</span>
-            <span className="text-muted-foreground ml-1">on WebHosters.nl</span>
+            <span className="ml-2 text-lg font-semibold">4,9/5</span>
+            <span className="text-muted-foreground ml-1">op WebHosters.nl</span>
           </div>
         </div>
 
