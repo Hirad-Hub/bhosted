@@ -11,11 +11,14 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <img src="/bhosted-logo.svg" alt="bHosted" className="h-8" />
+            <img src="/bhosted-logo.svg" alt="bHosted" className="w-[200px]" />
           </div>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
+            <a href="#bhosted" className="text-foreground hover:text-primary transition-colors">
+              bHosted
+            </a>
             <a href="#domeinen" className="text-foreground hover:text-primary transition-colors">
               Domeinen
             </a>
@@ -46,6 +49,13 @@ const Navigation = () => {
         {/* Mobile Navigation */}
         {isOpen && (
           <div className="md:hidden py-4 space-y-4">
+            <a
+              href="#bhosted"
+              className="block text-foreground hover:text-primary transition-colors"
+              onClick={() => setIsOpen(false)}
+            >
+              bHosted
+            </a>
             <a
               href="#domeinen"
               className="block text-foreground hover:text-primary transition-colors"
